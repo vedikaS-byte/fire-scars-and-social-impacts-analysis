@@ -33,7 +33,7 @@ The second dataset consists of geospatial layers containing dissolved fire perim
 ## References
 [1] Bren School of Environmental Science and Management. (2025). *landsat8-2025-02-23-palisades-eaton.nc* [Dataset]. Accessed November 20, 2025, from https://drive.google.com/drive/u/1/folders/1USqhiMLyN8GE05B8WJmHabviJGnmAsLP
 
-
+ 
 [2] County of Los Angeles Enterprise GIS. (2025). *Palisades and Eaton Dissolved Fire Perimeters (2025)* [Dataset]. County of Los Angeles. Accessed November 20, 2025, from 
 https://egis-lacounty.hub.arcgis.com/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about
 
@@ -51,4 +51,3 @@ https://www.npr.org/2025/01/08/nx-s1-5252535/palisades-fire-california-los-angel
 
 [6] Phillips, S. (2025, February). *The Palisades and Eaton Fires: Neighborhood Data and Potential Housing Market Effects.*. UCLA Lewis Center for Regional Policy Studies. Accessed November 21, 2025, from 
 https://escholarship.org/uc/item/1kg4v5v1
-
