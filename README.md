@@ -5,11 +5,12 @@ In January 2025, Los Angeles County experienced two catastrophic fires: the Eato
 
 The purpose of this repository is to store the data, code, and figures used in this assignment, which explores geospatial analysis and manipulation of environmental datasets using Python libraries such as `geopandas` and `xarray`. The project demonstrates how remote sensing data can be processed to create/contrast true color and  false color imagery of the Eaton and Palisades Fires, highlighting burn scars and illustrating the role of coding and data visualization in environmental monitoring. The repository includes the notebook `hwk4-task2-false-color-SHIRTEKAR.ipynb`, which analyzes geospatial data from both shapefiles and netCDF files to generate true color and false-color visualizations of areas affected by the fires in Los Angeles County. The **final output** of the analysis is a map generated using false color imagery of the Eaton and Palisades Fires perimeters. 
 
+
 ## Contents 
 This repository is organizated as follows and contains: 
 - `README.md`: Markdown file detailing repository description, content, structure, data access, and references.
 - `.gitignore`: File alerting Git to avoid "unnecessary" files from being committed to the repository. The data folder containing `landsat8-2025-02-23-palisades-eaton.nc` (Landsat) and fire perimeter spatial data were added to the `.gitignore` to prevent large datasets from being pushed to GitHub. 
-- `hwk4-task2-false-color-SHIRTEKAR.ipynb`: Notebook containing the analysis of true and false color imagery, as well as finalized map of fire extent in LA County.
+- `hwk4-task2-false-color-SHIRTEKAR.ipynb`: Notebook containing the analysis of true and false color imagery, as well as finalized false color image map of fire extent in LA County.
 
 The structure of the repository is included below.
 
@@ -21,13 +22,30 @@ eds220-hwk4
 ```
 
 ## Data Access
+The data utilized in this analysis is not housed in this repository. The streamlined set of spectral bands (red, green, blue, near-infrared, and shortwave infrared) was originally derived from the Landsat Collection 2 Level-2 surface reflectance data, which was atmospherically corrected and captured by the Landsat 8 satellite.The dataset was obtained from the [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) catalog and cropped to the region encompassing the fire perimeters. It is purely intended for visualization and educational use and is accessible as `landsat8-2025-02-23-palisades-eaton.nc` through the shared resources for the EDS 220 course.
 
-(1 pt) Details regarding data access. Any necessary information on where data lives (e.g. is it housed in the repo, on a server, in a library / package etc.) and how to access it in order to run the code.
-
+The second dataset consists of geospatial layers containing dissolved fire perimeters for the Eaton and Palisades Fires, provided as shapefiles and downloaded from [County of Los Angeles Enterprise GIS](https://egis-lacounty.hub.arcgis.com/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about). It is noted in the data summary that the original NIFC FIRIS fire service contained daily captures of fire perimeters and were thus dissolved from boundary polygons to create a single fire burn perimeter for each fire (County of Los Angeles, 2025).
 
 
 ## References
-(1 pt) References or acknowledgements. In an appropriate, consistent format, including links. Provide a reference to the course and any other sources that supported the development of the repository. Add references for data sets too.
+[1] Bren School of Environmental Science and Management. (2025). *landsat8-2025-02-23-palisades-eaton.nc* [Dataset]. Accessed November 20, 2025, from https://drive.google.com/drive/u/1/folders/1USqhiMLyN8GE05B8WJmHabviJGnmAsLP
 
-(3 pts) Throughout, the GitHub repository’s README should be free of typos, grammatical errors, and formatting mistakes. Appropriate markdown and markdown headers are  used to enhance the readability All content in the README is contained under a respective header in order to clearly access information. The overall flow of the README guides the viewer through the repository and is easy to follow. 
- 
+
+[2] County of Los Angeles Enterprise GIS. (2025). *Palisades and Eaton Dissolved Fire Perimeters (2025)* [Dataset]. County of Los Angeles. Accessed November 20, 2025, from 
+https://egis-lacounty.hub.arcgis.com/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about
+
+
+[3] Microsoft Planetary Computer. (n.d.). *Landsat Collection 2 Level-2*. Accessed November 20, 2025, from https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2
+
+
+[4] NASA Earth Observatory. (2025, January 16) *The Palisades Fire’s Footprint.*. NASA Earth Observatory. Accessed November 21, 2025, from, 
+https://earthobservatory.nasa.gov/images/153831/the-palisades-fires-footprint?
+
+
+[5] Neuman, S. (2025, January 8). *What are the Santa Ana winds, and how are they impacting the LA wildfires?*. NPR. Accessed November 21, 2025, from 
+https://www.npr.org/2025/01/08/nx-s1-5252535/palisades-fire-california-los-angeles-santa-ana-winds
+
+
+[6] Phillips, S. (2025, February). *The Palisades and Eaton Fires: Neighborhood Data and Potential Housing Market Effects.*. UCLA Lewis Center for Regional Policy Studies. Accessed November 21, 2025, from 
+https://escholarship.org/uc/item/1kg4v5v1
+
