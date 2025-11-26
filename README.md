@@ -5,7 +5,7 @@ In January 2025, Los Angeles County experienced two catastrophic fires: the Eato
 
 The purpose of this repository is to store the data, code, and figures used in this assignment, which explores geospatial analysis and manipulation of environmental datasets using Python libraries such as `geopandas` and `xarray`. The project demonstrates how remote sensing data can be processed to create/contrast true color and false color imagery of the Eaton and Palisades Fires, highlighting burn scars and illustrating the role of coding and data visualization in environmental monitoring. By creating false color images from selecting different spectral band types, burned areas are more clearly distinguished from healthy vegetation, providing precise spatial context and a deeper understanding of affected landscapes (Earth Observatory, 2025). 
 
-The repository includes the notebook `hwk4-task2-false-color-SHIRTEKAR.ipynb`, which analyzes geospatial data from both shapefiles and netCDF files to generate true color and false-color visualizations of areas affected by the fires in Los Angeles County. The **final output** of the analysis is a map generated using false color imagery of the Eaton and Palisades Fires perimeters. 
+The repository includes the notebook `hwk4-task2-false-color-SHIRTEKAR.ipynb`, which analyzes geospatial data from both shapefiles and netCDF files to generate true color and false color visualizations of areas affected by the fires in Los Angeles County. The **final output** of the analysis is a map generated using false color imagery of the Eaton and Palisades Fires perimeters. 
 
 
 
