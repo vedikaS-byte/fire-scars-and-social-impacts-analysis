@@ -1,4 +1,4 @@
-# Visualizing the Extent of the Palisades and Eaton Fires in Los Angeles County
+# Beyond the Burn: Fire Scars and Social Impacts of the Palisades and Eaton Fires
 
 ## Description 
 In January 2025, Los Angeles County experienced two catastrophic fires: the Eaton and Palisades Fires. Each fire burned nearly 10,000 acres and forced thousands of residents to evacuate (Neuman, 2025). Strong Santa Ana winds intensified the fires, complicating containment efforts, as the flames not only funneled through mountain passes but also spread over ridges and into surrounding basins (Neuman, 2025). The fires caused widespread displacement, killed at least 28 people, destroyed over 16,000 structures, and inflicted significant ecological damage (Phillips, 2025). 
@@ -13,14 +13,18 @@ The repository includes the notebook `hwk4-task2-false-color-SHIRTEKAR.ipynb`, w
 This repository is organizated as follows and contains: 
 - `README.md`: Markdown file detailing repository description, content, structure, data access, and references.
 - `.gitignore`: File alerting Git to avoid "unnecessary" files from being committed to the repository. The data folder containing `landsat8-2025-02-23-palisades-eaton.nc` (Landsat) and fire perimeter spatial data were added to the `.gitignore` to prevent large datasets from being pushed to GitHub. 
+- `palisades-eaton-blog-post-SHIRTEKAR.ipynb`: Notebook containing compiled analysis of false color imagery and social dimensions
 - `hwk4-task2-false-color-SHIRTEKAR.ipynb`: Notebook containing the analysis of true and false color imagery, as well as finalized false color image map of fire extent in LA County.
+- `social-dimensions-eaton-palisades-fires-SHIRTER.ipynb`: 
 
 The structure of the repository is included below.
 
 ```
-eds220-hwk4
+Beyond the Burn: Fire Scars and Social Impacts of the Palisades and Eaton Fires
 ├── README.md
+├── palisades-eaton-blog-post-SHIRTEKAR.ipynb
 ├── hwk4-task2-false-color-SHIRTEKAR.ipynb
+├── social-dimensions-eaton-palisades-fires-SHIRTEKAR.ipynb
 ├── .gitignore
 ```
 
