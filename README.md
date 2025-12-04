@@ -13,7 +13,7 @@ The final outputs include:
 
 - A map of census tracts highlighting households living below 200% of the poverty line within the affected areas, using data from the 2024 Environmental Justice Index (EJI) geodatabase (`EPL_POV200`).
 
-The repository includes two separate notebooks detailing both sections of the blog post (`palisades-eaton-blog-post-SHIRTEKAR.ipynb`) in detail. The `hwk4-task2-false-color-SHIRTEKAR.ipynb` notebook, which analyzes geospatial data from both shapefiles and netCDF files to generate true color and false color visualizations of areas affected by the fires in Los Angeles County. The `social-dimensions-eaton-palisades-fires-SHIRTER.ipynb` details spatially joining and clipping census tracts to each fire perimeter, highlighting how each method produces different spatial extents and visualizations.
+The repository includes two separate notebooks detailing both sections of the blog post (`palisades-eaton-blog-post-SHIRTEKAR.ipynb`) in detail. The `false-color-analysis-SHIRTEKAR.ipynb` notebook, which analyzes geospatial data from both shapefiles and netCDF files to generate true color and false color visualizations of areas affected by the fires in Los Angeles County. The `social-dimensions-eaton-palisades-fires-SHIRTEKAR.ipynb` details spatially joining and clipping census tracts to each fire perimeter, highlighting how each method produces different spatial extents and visualizations.
 
 
 
@@ -22,8 +22,8 @@ This repository is organizated as follows and contains:
 - `README.md`: Markdown file detailing repository description, content, structure, data access, and references.
 - `.gitignore`: File alerting Git to avoid "unnecessary" files from being committed to the repository. The data folder containing `landsat8-2025-02-23-palisades-eaton.nc` (Landsat) and fire perimeter spatial data were added to the `.gitignore` to prevent large datasets from being pushed to GitHub. 
 - `palisades-eaton-blog-post-SHIRTEKAR.ipynb`: Notebook containing compiled analysis of false color imagery and social dimensions of the fires.
-- `hwk4-task2-false-color-SHIRTEKAR.ipynb`: Notebook containing the analysis of true and false color imagery, as well as finalized false color image map of fire extent in LA County.
-- `social-dimensions-eaton-palisades-fires-SHIRTER.ipynb`: Notebook comparing geospatial clipping and joining methods for linking socioeconomic data to each fire, including a final map showing the selected socioeconomic variable for census tracts within each fire perimeter.
+- `false-color-analysis-SHIRTEKAR.ipynb`: Notebook containing the analysis of true and false color imagery, as well as finalized false color image map of fire extent in LA County.
+- `social-dimensions-eaton-palisades-fires-SHIRTEKAR.ipynb`: Notebook comparing geospatial clipping and joining methods for linking socioeconomic data to each fire, including a final map showing the selected socioeconomic variable for census tracts within each fire perimeter.
 
 The structure of the repository is included below.
 
@@ -31,7 +31,7 @@ The structure of the repository is included below.
 Beyond the Burn: Fire Scars and Social Impacts of the Palisades and Eaton Fires
 ├── README.md
 ├── palisades-eaton-blog-post-SHIRTEKAR.ipynb
-├── hwk4-task2-false-color-SHIRTEKAR.ipynb
+├── false-color-analysis-SHIRTEKAR.ipynb
 ├── social-dimensions-eaton-palisades-fires-SHIRTEKAR.ipynb
 ├── .gitignore
 ```
